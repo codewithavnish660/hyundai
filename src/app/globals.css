@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.container55{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,6 @@
 }
 .login-box{
     width: 30%;
-    padding: 50px;
     background-color: #fff;
     border-radius: 15px;
 }
@@ -46,7 +45,7 @@ h1{
     display: flex;
     justify-content: end;
     color: blue;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 .login-btn{
     color: #fff;
@@ -65,9 +64,18 @@ h1{
 .social-login{
     content: " ";
     position: absolute;
-    margin-top: 43px;
-    margin-left: 6px;
+    top: 64px;
+    left: 18px;
     color: grey;
+    font-size: 24px;
+}
+.social-login2{
+    content: " ";
+    position: absolute;
+    top: 64px;
+    left: 18px;
+    color: grey;
+    font-size: 24px;
 }
 .icon-social{
     display: flex;
@@ -97,7 +105,6 @@ h1{
  display: flex;
  justify-content: center;
  align-items: center;
- height: 100vh;
  background-image: url('fonts/backgroundimg1.jpg');
  background-repeat: no-repeat;
  background-size: cover;
@@ -142,5 +149,40 @@ justify-content: center;
     border-radius: 20px;
     border: none;
 }
+/* ===========css for homepage================= */
 
-
+.container-navbar{
+display: flex;
+justify-content: space-around;
+background-image: url('./fonts/backgroundhome.avif');
+width: 100%;
+align-items: flex-start;
+/* margin: 0 auto; */
+height: 100vh;
+}
+.navbar{
+ width: 15%;
+ font-size: 29px;
+ font-weight: 600;
+ color: #fff; 
+ 
+}
+.logo{
+width: 60%;
+padding-top: 7px;
+}
+.logo nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+.cta-buttons{
+width: 15%;
+padding: 10px;
+display: flex;
+gap: 15px;
+}

@@ -6,7 +6,7 @@ import { AiFillGoogleCircle } from "react-icons/ai";
 import Link from "next/link";
 export default function loginpage() {
     return (
-        <div className="container">
+        <div className="container55">
             <div className="login-box">
                 <h1>Sign In</h1>
                 <form>
@@ -18,7 +18,7 @@ export default function loginpage() {
                     <div className="input-group">
                         <label>Password</label>
                         <input type="password" placeholder="Type your password"></input>
-                        <h3 className="social-login"><RiLockPasswordLine /></h3>
+                        <h3 className="social-login2"><RiLockPasswordLine /></h3>
                     </div>
                     <p className="page-transfer">Forgot password?</p>
                     <div><button type="submit" className="login-btn" >LOGIN</button></div>
